@@ -100,6 +100,7 @@
         margin: 0;
         padding: 0;
         list-style: none;
+        margin-bottom: 25px;
     }
 
     &__list-item {
@@ -148,5 +149,9 @@
 
     &__list-img {
         margin-right: 15px;
+    }
+
+    &__right-bot {
+        margin: 0px auto;
     }
 }
