@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>Document</title>
 </head>
+
 <body>
 
     <!-- HEADER -->
@@ -18,7 +20,209 @@
     <!-- MAIN -->
 
     <main class="main">
+        <div class="pace">
+            <div class="pace__left bg-warning">
+                <a class="pace__logo" href="#">
+                    <img class="pace__logo-img" src="./images/Logo.svg" alt="site logo" width="35" height="39">
+                </a>
 
+                <span class="pace__left-devi"></span>
+
+                <ul class="pace__left-links">
+                    <li class="pace__left-item">
+                        <img class="pace__left-item-img" src="./images/pace__left-item-img1.svg" alt="" width="24"
+                            height="24">
+                        <a class="pace__left-item-desc" href="#">Overview</a>
+                    </li>
+                    <li class="pace__left-item">
+                        <img class="pace__left-item-img" src="./images/pace__left-item-img2.svg" alt="" width="24"
+                            height="20">
+                        <a class="pace__left-item-desc" href="#">Cloud</a>
+                    </li>
+                    <li class="pace__left-item">
+                        <img class="pace__left-item-img" src="./images/pace__left-item-img3.svg" alt="" width="23"
+                            height="21">
+                        <a class="pace__left-item-desc" href="#">Sketch</a>
+                    </li>
+                    <li class="pace__left-item">
+                        <img class="pace__left-item-img" src="./images/pace__left-item-img4.svg" alt="" width="22"
+                            height="24">
+                        <a class="pace__left-item-desc" href="#">Experiments</a>
+                    </li>
+                    <li class="pace__left-item">
+                        <img class="pace__left-item-img" src="./images/pace__left-item-img5.svg" alt="" width="23"
+                            height="24">
+                        <a class="pace__left-item-desc" href="#">Security</a>
+                    </li>
+                    <li class="pace__left-item">
+                        <img class="pace__left-item-img" src="./images/pace__left-item-img6.svg" alt="" width="24"
+                            height="24">
+                        <a class="pace__left-item-desc" href="#">Ownership</a>
+                    </li>
+                    <li class="pace__left-item">
+                        <img class="pace__left-item-img" src="./images/pace__left-item-img7.svg" alt="" width="24"
+                            height="24">
+                        <a class="pace__left-item-desc" href="#">A/B Test</a>
+                    </li>
+                    <li class="pace__left-item">
+                        <img class="pace__left-item-img" src="./images/pace__left-item-img8.svg" alt="" width="24"
+                            height="24">
+                        <a class="pace__left-item-desc" href="#">Colors</a>
+                    </li>
+                    <li class="pace__left-item">
+                        <img class="pace__left-item-img" src="./images/pace__left-item-img9.svg" alt="" width="21"
+                            height="22">
+                        <a class="pace__left-item-desc" href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="pace__right">
+                <div class="pace__right-top">
+                    <h1 class="pace__right-heading">Overview</h1>
+                    <div class="pace__right-buttons">
+                        <button class="pace__right-btn btn btn-secondary">
+                            <img class="pace__right-btn-img" src="./images/Vector.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn-success     pace__right-btn" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Add
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Afsuski siz bu yerga qushimcha ma'lumot qo'sha olmaysiz buning uchun siz
+                                        ro'yxatdan o'tishingiz kerak !
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Chiqish</button>
+                                        <button type="button" class="btn btn-primary">Tushundim</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="pace__list">
+                    <li class="pace__list-item">
+                        <p class="pace__list-item-heading">Owner</p>
+                        <p class="pace__list-item-heading">End date</p>
+                        <p class="pace__list-item-heading">Profits</p>
+                        <p class="pace__list-item-heading">Losses</p>
+                        <p class="pace__list-item-heading">Phone</p>
+                    </li>
+                    <li class="pace__list-item">
+                        <div class="pace__list-item-name">
+                            <img class="pace__list-img" src="./images/item-img-1.png" alt="" width="35" height="35">
+                            <p class="pace__list-desc">Savannah Nguyen</p>
+                        </div>
+                        <p class="pace__list-desc">1/15/12</p>
+                        <p class="pace__list-desc text-success">$328.85</p>
+                        <p class="pace__list-desc text-danger">$779.58</p>
+                        <p class="pace__list-desc">(603) 555-0123</p>
+                    </li>
+                    <li class="pace__list-item">
+                        <div class="pace__list-item-name">
+                            <img class="pace__list-img" src="./images/item-img-2.png" alt="" width="35" height="35">
+                            <p class="pace__list-desc">Jenny Wilson</p>
+                        </div>
+                        <p class="pace__list-desc">8/30/14</p>
+                        <p class="pace__list-desc text-success">$948.55</p>
+                        <p class="pace__list-desc text-danger">$523.15</p>
+                        <p class="pace__list-desc">(603) 555-0553</p>
+                    </li>
+                    <li class="pace__list-item">
+                        <div class="pace__list-item-name">
+                            <img class="pace__list-img" src="./images/item-img-3.png" alt="" width="35" height="35">
+                            <p class="pace__list-desc">Annette Black</p>
+                        </div>
+                        <p class="pace__list-desc">5/30/14</p>
+                        <p class="pace__list-desc text-success">$358.24</p>
+                        <p class="pace__list-desc text-danger">$352.15</p>
+                        <p class="pace__list-desc">(603) 555-9523</p>
+                    </li>
+                    <li class="pace__list-item">
+                        <div class="pace__list-item-name">
+                            <img class="pace__list-img" src="./images/item-img-4.png" alt="" width="35" height="35">
+                            <p class="pace__list-desc">Kathryn Murphy</p>
+                        </div>
+                        <p class="pace__list-desc">11/7/16</p>
+                        <p class="pace__list-desc text-success">$541.98</p>
+                        <p class="pace__list-desc text-danger">$784.23</p>
+                        <p class="pace__list-desc">(603) 555-9823</p>
+                    </li>
+                    <li class="pace__list-item">
+                        <div class="pace__list-item-name">
+                            <img class="pace__list-img" src="./images/item-img-5.png" alt="" width="35" height="35">
+                            <p class="pace__list-desc">Cameron Williamson</p>
+                        </div>
+                        <p class="pace__list-desc">7/27/13</p>
+                        <p class="pace__list-desc text-success">$562.87</p>
+                        <p class="pace__list-desc text-danger">$872.31</p>
+                        <p class="pace__list-desc">(603) 555-5263</p>
+                    </li>
+                    <li class="pace__list-item">
+                        <div class="pace__list-item-name">
+                            <img class="pace__list-img" src="./images/item-img-6.png" alt="" width="35" height="35">
+                            <p class="pace__list-desc">Kristin Watson</p>
+                        </div>
+                        <p class="pace__list-desc">5/19/12</p>
+                        <p class="pace__list-desc text-success">$982.35</p>
+                        <p class="pace__list-desc text-danger">$231.52</p>
+                        <p class="pace__list-desc">(603) 555-0578</p>
+                    </li>
+                    <li class="pace__list-item">
+                        <div class="pace__list-item-name">
+                            <img class="pace__list-img" src="./images/item-img-7.png" alt="" width="35" height="35">
+                            <p class="pace__list-desc">Eleanor Pena</p>
+                        </div>
+                        <p class="pace__list-desc">8/21/15</p>
+                        <p class="pace__list-desc text-success">$652.32</p>
+                        <p class="pace__list-desc text-danger">$254.31</p>
+                        <p class="pace__list-desc">(603) 555-0521</p>
+                    </li>
+                    <li class="pace__list-item">
+                        <div class="pace__list-item-name">
+                            <img class="pace__list-img" src="./images/item-img-8.png" alt="" width="35" height="35">
+                            <p class="pace__list-desc">Guy Hawkins</p>
+                        </div>
+                        <p class="pace__list-desc">5/27/15</p>
+                        <p class="pace__list-desc text-success">$657.84</p>
+                        <p class="pace__list-desc text-danger">$562.31</p>
+                        <p class="pace__list-desc">(603) 555-6520</p>
+                    </li>
+                    <li class="pace__list-item">
+                        <div class="pace__list-item-name">
+                            <img class="pace__list-img" src="./images/item-img-9.png" alt="" width="35" height="35">
+                            <p class="pace__list-desc">Brooklyn Simmons</p>
+                        </div>
+                        <p class="pace__list-desc">3/4/16</p>
+                        <p class="pace__list-desc text-success">$895.64</p>
+                        <p class="pace__list-desc text-danger">$452.69</p>
+                        <p class="pace__list-desc">(603) 555-8521</p>
+                    </li>
+                    <li class="pace__list-item">
+                        <div class="pace__list-item-name">
+                            <img class="pace__list-img" src="./images/item-img-10.png" alt="" width="35" height="35">
+                            <p class="pace__list-desc">Robert Fox</p>
+                        </div>
+                        <p class="pace__list-desc">2/09/15</p>
+                        <p class="pace__list-desc text-success">$652.44</p>
+                        <p class="pace__list-desc text-danger">$789.65</p>
+                        <p class="pace__list-desc">(603) 555-9852</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </main>
 
     <!-- FOOTER -->
@@ -27,5 +231,7 @@
         <div class="container"></div>
     </footer>
 
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

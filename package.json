@@ -1,0 +1,22 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firdavs13/Dashboard.git"
+  },
+  "author": "Firdavs Temirov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firdavs13/Dashboard/issues"
+  },
+  "homepage": "https://github.com/firdavs13/Dashboard#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
